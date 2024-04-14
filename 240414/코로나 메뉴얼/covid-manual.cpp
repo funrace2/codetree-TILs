@@ -14,15 +14,24 @@ int main() {
         if ((e == 'Y' && f>=37) || (c == 'Y' && d>=37)) {
             cout << "E";
         }
+        else {
+            cout << "N";
+        }
     }
     else if (e == 'Y' && f>=37) {
         if ((a == 'Y' && b>=37) || (c == 'Y' && d>=37)) {
             cout << "E";
         }
+        else {
+            cout << "N";
+        }
     }
     else if (c == 'Y' && d>=37) {
         if ((a == 'Y' && b>=37) || (e == 'Y' && f>=37)) {
             cout << "E";
+        }
+        else {
+            cout << "N";
         }
     }
     else {
